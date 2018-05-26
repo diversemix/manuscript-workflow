@@ -1,0 +1,15 @@
+{
+  "name": "manuscript-workflow",
+  "version": "1.0.0",
+  "description": "Test Example for a Manuscript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js|dot -Tpng -o workflow.png|xdg-open workflow.png",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "javascript-state-machine": "^3.0.1"
+  }
+}
