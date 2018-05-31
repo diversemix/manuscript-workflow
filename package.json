@@ -4,12 +4,13 @@
   "description": "Test Example for a Manuscript",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js|dot -Tpng -o workflow.png|xdg-open workflow.png",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js dot|dot -Tpng -o workflow.png|xdg-open workflow.png",
+    "test": "node index.js test"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "javascript-state-machine": "^3.0.1"
+    "javascript-state-machine": "^3.0.1",
+    "lodash": "^4.17.10"
   }
 }
